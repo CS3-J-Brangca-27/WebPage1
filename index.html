@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jane's Hooks</title>
+  <style>
+    body {
+      background: rgba(0, 0, 0, 0.1) url('Background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      padding-bottom: 50px; /* Padding for the footer */
+    }
+    .header {
+      background-color: rgba(113, 81, 71, 0.38); /* 38% transparency */
+      width: 100%;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      position: relative;
+      border-bottom: 2px solid #fff; /* Outline at the bottom of the header */
+    }
+    .header h1 {
+      color: white;
+      margin: 0;
+    }
+    .logo {
+      margin-right: 10px;
+    }
+    .text-container {
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .text-container h2 {
+      font-family: 'Brasika', sans-serif;
+      font-size: 60px;
+      margin: 0;
+      line-height: 60px;
+      color: white;
+    }
+    .additional-text {
+      font-family: 'Canva Sans', sans-serif;
+      font-size: 22px;
+      color: white;
+    }
+    .small-boxes {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 20px; /* Adjust the margin to move the boxes down */
+    }
+    .small-box {
+      width: 100px;
+      height: 40px;
+      margin-left: 10px;
+      text-align: center;
+      position: relative;
+    }
+    .small-box h2 {
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+    }
+    .small-box:nth-child(1) {
+      background-color: rgba(180, 158, 146, 0.5);
+    }
+    .small-box:nth-child(2) {
+      background-color: rgba(213, 198, 179, 0.5);
+    }
+    .small-box:nth-child(3) {
+      background-color: rgba(180, 158, 146, 0.5);
+    }
+    .content {
+      display: flex;
+      align-items: flex-start;
+      padding: 20px;
+      position: relative;
+      margin-top: 20px; /* Add margin between the images */
+    }
+    .content h2 {
+      color: #000000;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(180, 158, 146, 0.5);
+      padding: 10px;
+      margin: 0;
+      opacity: 0.8;
+    }
+    .content img {
+      width: 40%; /* Adjust the width as needed */
+      height: auto;
+      margin-top: 10px; /* Add margin to separate the image and the box */
+    }
+    .footer {
+      background-color: rgba(113, 81, 71, 0.38);
+      width: 100%;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+    }
+    .footer p {
+      color: white;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">
+        <img src="Logo.jpg" alt="Logo" width="100" height="100">
+      </div>
+      <div class="text-container">
+        <h2>Jane's Hooks</h2>
+        <div class="additional-text">
+          STRESS FLIES WHEN YOU CROCHET
+        </div>
+      </div>
+      <div class="small-boxes">
+  <a href="#homeContent" class="small-box">
+    <h2>Home</h2>
+  </a>
+  <a href="page2.html" class="small-box">
+    <h2>Prologue</h2>
+  </a>
+  <a href="#contactsContent" class="small-box">
+    <h2>Contacts</h2>
+  </a>
+</div>
+
+    </div>
+</div>
+    <div class="content">
+      <h2>Crochet Patterns</h2>
+      <img src="CrochetPatterns.jpg" alt="Crochet Patterns">
+    </div>
+    <div class="content">
+      <h2>Shop</h2>
+      <img src="Shop.jpg" alt="Shop">
+    </div>
+    <div class="content">
+      <h2>Crochet Materials</h2>
+      <img src="CrochetMaterials.jpg" alt="Crochet Materials">
+    </div>
+  </div>
+  </div>
+  <div class="footer">
+    <p>Your Footer</p>
+  </div>
+</body>
+</html>
